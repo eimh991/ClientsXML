@@ -33,8 +33,7 @@ namespace ClientsXML
             CreateCurrentClientsXML(corecctClients);
             CreateCurrentRegistratorXML(registratorsList);
             SortMistakes(countUncorrectClients);
-            Console.WriteLine(allListClients.Count);
-            Console.WriteLine(corecctClients.Count);
+            Console.WriteLine("Все файлы созданы!");
         }
         public static List<string> CreateRegistratorNameList(XmlElement clientsRoot)
         {
